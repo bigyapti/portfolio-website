@@ -76,7 +76,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I'm a fourth-year computer engineering student passionate about both machine learning and web development. Proficient in HTML, CSS, JavaScript, React, Next.js, Django, Flask, and Node.js and more, I specialize in crafting responsive interfaces. Beyond web development, I'm exploring machine learning with Python, TensorFlow, and PyTorch. A quick learner and team player, I'm excited to contribute to projects that blend web development and machine learning for innovative applications.
+          I am a fourth-year computer engineering student passionate about both machine learning and web development. Proficient in HTML, CSS, JavaScript, React, Next.js, Django, Flask, and Node.js and more, I specialize in crafting responsive interfaces. Beyond web development, I am exploring machine learning with Python, TensorFlow, and PyTorch. A quick learner and team player, I am excited to contribute to projects that blend web development and machine learning for innovative applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
