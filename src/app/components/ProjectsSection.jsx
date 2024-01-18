@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "NLPR",
-    description: "Helmet and License Plate Detection System employs YOLOv8 and OpenCV for image processing, utilizing a real-life dataset. YOLOv8's object detection capabilities are leveraged to identify helmets on individuals and recognize Nepali license plates on vehicles, enhancing safety and compliance measures.",
+    description: "Helmet and License Plate Detection System employs YOLOv8 and OpenCV for image processing, utilizing a real-life Nepal dataset. YOLOv8's object detection capabilities are leveraged to identify helmets on individuals and recognize Nepali license plates on vehicles, enhancing safety and compliance measures.",
     image: "/images/projects/3.png",
     tag: ["All", "Web","AI"],
     gitUrl: "https://github.com/bigyapti/NLPR",
@@ -62,7 +62,7 @@ const projectsData = [
   {
     id: 7,
     title: "Pathfinder",
-    description: "Pathfinder generates random maze using DFS and solves the generated maze using A* search algorithm",
+    description: "Pathfinder generates random maze using DFS and solves the generated maze using A* search algorithm.",
     image: "/images/projects/mg.png",
     tag: ["All", "Web","AI"],
     gitUrl: "https://github.com/bigyapti/PathFinder",
@@ -71,11 +71,11 @@ const projectsData = [
   {
     id: 8,
     title: "Portfolio Website",
-    description: "",
-    image: "/images/projects/mg.png",
-    tag: ["All", "Web","AI"],
-    gitUrl: "https://github.com/bigyapti/PathFinder",
-    previewUrl: "/images/projects/mg.png",
+    description: "This is a portfolio website built using Next.js and Tailwind CSS.",
+    image: "/images/projects/pw.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/bigyapti/portfolio-website",
+    previewUrl: "/images/projects/pw.png",
   },
 ];
 
