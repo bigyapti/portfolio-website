@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "NLPR",
-    description: "Helmet and License Plate Detection System employs YOLOv8 and OpenCV for image processing, utilizing a real-life Nepal dataset. YOLOv8's object detection capabilities are leveraged to identify helmets on individuals and recognize Nepali license plates on vehicles, enhancing safety and compliance measures.",
+    description: "The Helmet and License Plate Detection System is a web app using YOLOv8 and OpenCV to identify helmets and Nepali license plates.",
     image: "/images/projects/3.png",
     tag: ["All", "Web","AI"],
     gitUrl: "https://github.com/bigyapti/NLPR",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "CV Analyzer",
-    description: "The CV Analyzer utilizes NLP and ML algorithms to analyze resumes, providing insights into skills and experiences. It predicts suitable job sectors, highlights areas for improvement, and allows job administrators to post listings while ranking candidates' CVs for efficient recruitment. The backend is implemented using Flask, MongoDB serves as the database, and Bootstrap is employed for the frontend.",
+    description: "The CV Analyzer is a web application that uses NLP techniques to analyze resumes and rank candidates.",
     image: "/images/projects/cv.png",
     tag: ["All", "Web","AI"],
     gitUrl: "https://github.com/bigyapti/CV_Analyzer",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Vatsala Devi",
-    description: "This project focuses on creating a 3D model of Vatsala Devi Temple using computer graphics tools such as Blender, OpenGL, GLFW, GLAD, and GLSL. The implementation includes advanced graphics techniques like texture mapping, lighting, and shaders for realism. ",
+    description: "This project focuses on creating a 3D model of Vatsala Devi Temple using computer graphics tools such as Blender and OpenGL. ",
     image: "/images/projects/vd.png",
     tag: ["All"],
     gitUrl: "https://github.com/bigyapti/Vatshala_Devi",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "StarWars",
-    description: "StarWars focuses on implementing object-oriented programming using C++ and SFML for game development. The game involves piloting a spaceship to shoot asteroids, incorporating features like player controls, collisions, scoring, and lives.",
+    description: "StarWars focuses on implementing object-oriented programming using C++ and SFML for game development.",
     image: "/images/projects/sw.png",
     tag: ["All"],
     gitUrl: "https://github.com/bigyapti/StarWars",
@@ -53,7 +53,7 @@ const projectsData = [
   {
     id: 6,
     title: "Expense Tracker",
-    description: "The Expense Tracker Django project incorporates features such as Admin panel, Ajax search, a PostgreSQL database, integration with a mail server for registration, and utilizes Chart.js for visualizing expenses and income.",
+    description: "Website made using Django and chart.js to track expenses and income.",
     image: "/images/projects/et.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/bigyapti/expense-tracker",
@@ -77,6 +77,26 @@ const projectsData = [
     gitUrl: "https://github.com/bigyapti/portfolio-website",
     previewUrl: "/images/projects/pw.png",
   },
+  {
+    id: 9,
+    title: "Image Fusion",
+    description: "Multi-focus image fusion uses CNNs to combine images with different focus depths into one image that preserves all information.",
+    image: "/images/projects/mg.png",
+    tag: ["All","AI"],
+    gitUrl: "https://github.com/bigyapti/PathFinder",
+    previewUrl: "/images/projects/if.png",
+  },
+  {
+    id: 10,
+    title: "Website Summerizer",
+    description: "The web page summarization tool utilizes Selenium for web scraping, the Google Gemini API for content summarization, and Gradio for the user interface.",
+    image: "/images/projects/ws.png",
+    tag: ["All","AI","Web"],
+    gitUrl: "https://github.com/bigyapti/PathFinder",
+    previewUrl: "/images/projects/ws.png",
+  },
+  
+
 ];
 
 const ProjectsSection = () => {
