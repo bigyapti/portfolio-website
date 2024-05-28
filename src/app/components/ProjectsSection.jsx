@@ -24,7 +24,7 @@ const projectsData = [
     previewUrl: "/images/projects/cv.png",
   },
   {
-    id: 3,
+    id: 10,
     title: "GarbageCollectorAI",
     description: "The GarbageCollectorAI  employs  Deep Q-Learning and trains an AI agent for efficient garbage collection in a digital environment.",
     image: "/images/projects/2.png",
@@ -33,7 +33,7 @@ const projectsData = [
     previewUrl: "/images/projects/2.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Vatsala Devi",
     description: "This project focuses on creating a 3D model of Vatsala Devi Temple using computer graphics tools such as Blender and OpenGL. ",
     image: "/images/projects/vd.png",
@@ -42,7 +42,7 @@ const projectsData = [
     previewUrl: "/images/projects/vd.png",
   },
   {
-    id: 5,
+    id: 9,
     title: "StarWars",
     description: "StarWars focuses on implementing object-oriented programming using C++ and SFML for game development.",
     image: "/images/projects/sw.png",
@@ -78,7 +78,7 @@ const projectsData = [
     previewUrl: "/images/projects/mg.png",
   },
   {
-    id: 9,
+    id: 4,
     title: "Image Fusion",
     description: "Multi-focus image fusion uses CNNs to combine images with different focus depths into one image that preserves all information.",
     image: "/images/projects/if.png",
@@ -87,7 +87,7 @@ const projectsData = [
     previewUrl: "/images/projects/if.png",
   },
   {
-    id: 10,
+    id: 3,
     title: "Website Summerizer",
     description: "The web page summarization tool utilizes Selenium for web scraping, the Google Gemini API for content summarization, and Gradio for the user interface.",
     image: "/images/projects/ws.png",
